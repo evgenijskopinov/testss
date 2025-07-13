@@ -59,7 +59,7 @@ def get_weather(latitude, longitude):
     except requests.exceptions.RequestException as e:
         print(f"Ошибка при запросе погоды: {e}")
     except KeyError as e:
-        print(f"Ошибка при парсфивыввыууунге данных: Отсутствует ключ {e}")
+        print(f"Ошибка при парсфивzxыввыууунге данных: Отсутствует ключ {e}")
     except Exception as e:
         print(f"Произошла непредвиденная ошибка: {e}")
 
