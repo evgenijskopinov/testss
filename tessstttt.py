@@ -70,7 +70,7 @@ if __name__ == "__main__":
     almaty_lat = 43.2567
     almaty_lon = 76.9286
 
-    print("Получение погоды для Алматы:")
+    print("Получение погод2ы для Алматы:")
     get_weather(almaty_lat, almaty_lon)
 
     print("\nВведите свои координаты:")
